@@ -17,6 +17,10 @@ app.get('/',(req, res) =>{
   res.render('base', {title: 'Login System'})
 })
 
+app.get('/coucou', (res, req) => {
+  res.send('Yes!!!!')
+})
+
 
 
 app.listen(port, ()=> {
